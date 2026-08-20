@@ -34,3 +34,8 @@ variable "availability_zone" {
   default     = "ap-south-1a"
 }
 
+variable "admin_ip" {
+  description = "Public IPv4 address allowed to SSH to the web server"
+  type        = string
+  default     = "106.219.249.25"
+}
